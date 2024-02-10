@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(127, 181, 228);
+    text-align: center;
+    padding: 25px;
+}
+.navbar {
+    background-color: rgb(8, 65, 116);
+    height: 50px;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(127, 181, 228);
+    text-align: center;
+    padding: 25px;
+    display: block;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    aside, section, article {
+        width: 100%;
+    }
+}
